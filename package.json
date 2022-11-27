@@ -1,0 +1,18 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "main": "node.js",
+  "scripts": {
+    "start": "node ./src/js/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
