@@ -1,0 +1,11 @@
+doctype html
+html
+head
+title=title
+body
+    h1 Resultados de busqueda
+
+    ul
+        each item in lista
+            li
+                a(href=item.direccion+"/aux?nombre=" +item.nombre) #{ item.nombre + "  Coincidencias encontradas: " + item.coincidencias +"  Palabras encontradas en el documento: "+ item.palabras}
